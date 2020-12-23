@@ -313,7 +313,9 @@ div.navigacija{
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
-  
+  .touch-device-hovered{
+    transform: rotateY(180deg);
+  }
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;

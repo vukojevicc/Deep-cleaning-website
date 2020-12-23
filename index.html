@@ -238,7 +238,20 @@
             }
           }
         }
-        
+        let touch_div = document.getElementById('touch_div');
+        let is_touch_device = false;
+        let touchstart_event_listener;
+
+        if ("ontouchstart" in document.documentElement) {  
+            is_touch_device = true;
+        }
+
+        if (is_touch_device) {
+
+            touch_div.addEventListener('touchstart', touchstart_event_listener = () => {  
+                touch_div.classList.add('touch-device-hovered');
+            });
+        }
         var x = window.matchMedia("(max-width: 887px)");
         myFunction(x);
         x.addListener(myFunction);
