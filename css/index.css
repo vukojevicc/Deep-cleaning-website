@@ -5,9 +5,6 @@
     list-style-type: none;
     font-family: "Work Sans", monospace;
 }
-html{
-    scroll-behavior: smooth;
-}
 a{
     text-decoration: none;
 }
