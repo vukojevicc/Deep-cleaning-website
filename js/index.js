@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    function scrollFunction(){
     $("a").on('click', function(event) {
         if (this.hash !== "") {
           event.preventDefault();
@@ -10,13 +11,15 @@ $(document).ready(function(){
           });
         }
       });
+    }
+    scrollFunction();
     function myFunction(x) {
         var j = document.getElementsByClassName("dolazak-na-adresu");
         var k = document.getElementsByClassName("js");
         for(i=0; i<j.length; i++){
           if(x.matches){
               j[i].innerHTML = "Nameštaj od kože";
-              k[i].setAttribute("href", "#nameštaj-od-kože");
+              k[i].setAttribute("href", "#namestaj-od-koze");
           }
           else{
               j[i].innerHTML = "Dolazak na adresu";
