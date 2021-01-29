@@ -60,4 +60,5 @@ $(document).ready(function(){
   }
       var x = window.matchMedia("(max-width: 887px)");
       myFunction(x);
+      x.addListener(myFunction);
 })
