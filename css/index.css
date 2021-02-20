@@ -286,7 +286,7 @@ div.navigacija{
 #tepih.prices::before{
     content: "Dubinsko pranje tepiha";
 }
-#nameštaj-od-kože.prices::before{
+#namestaj-od-koze.prices::before{
     content: "Nameštaj od kože";
 }
 #kožni-enterijer-vozila.prices::before{
